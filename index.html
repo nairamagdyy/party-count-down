@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body onload="countdown();">
+
+
+
+  <section class="text-white content " id="home">
+    <div class="bg-red d-flex flex-column align-items-center justify-content-center">
+      <h1>Egyption Party</h1>
+      <h3>Let's have Fun</h3>
+      <div class="nav">
+        <button id="open" class="btn fs-3 text-white"><i class="fas fa-bars"></i> open</button>
+        <div id="menu">
+          <button id="close"><i class="fas fa-times"> </i></button>
+          <ul class="nav flex-column">
+            <li class="nav-item pt-5">
+              <a class="nav-link text-white fs-3 py-2" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-3 py-2" href="#duration">Duration</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-3 py-2" href="#details">Details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-3 py-2" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="details" class=" w-50 text-center text-white bg-danger mx-auto overflow-hidden">
+    <h3 id="singer1">Singer one</h3>
+    <p id="mysinger1" class="bg-secondary overflow-hidden">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Accusantium aperiam ut, impedit est quod quibusdam
+      autem a illo vel tempora reprehenderit eligendi possimus officia quos. Veniam officia magnam, deleniti dolorum
+      iure hic, saepe voluptatum distinctio asperiores praesentium nesciunt facilis inventore nemo, ad reprehenderit eos
+      consequatur at excepturi. At, non veniam!</p>
+
+
+    <h3 id="singer2">Singer two</h3>
+    <p id="mysinger2" class="bg-secondary overflow-hidden">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Accusantium aperiam ut, impedit est quod quibusdam
+      autem a illo vel tempora reprehenderit eligendi possimus officia quos. Veniam officia magnam, deleniti dolorum
+      iure hic, saepe voluptatum distinctio asperiores praesentium nesciunt facilis inventore nemo, ad reprehenderit eos
+      consequatur at excepturi. At, non veniam!</p>
+
+    <h3 id="singer3">Singer three</h3>
+    <p id="mysinger3" class="bg-secondary overflow-hidden">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Accusantium aperiam ut, impedit est quod quibusdam
+      autem a illo vel tempora reprehenderit eligendi possimus officia quos. Veniam officia magnam, deleniti dolorum
+      iure hic, saepe voluptatum distinctio asperiores praesentium nesciunt facilis inventore nemo, ad reprehenderit eos
+      consequatur at excepturi. At, non veniam!</p>
+
+  </section>
+
+  <section id="duration">
+      <div>
+        <div class="container text-center d-flex">
+
+          <div class="col-3">
+            <div class="border border-dark py-5">
+              <h3 id="days"></h3>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="border border-dark py-5" >
+              <h3 id="hours"></h3>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="border border-dark py-5">
+              <h3 id="minutes"></h3>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="border border-dark py-5">
+              <h3 id="seconds"></h3>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div>
+            <h3 class="fw-bold">CONTACT INFO</h3>
+            <p> Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+              ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.</p>
+            <div>
+              <p>
+                <i class="fa fa-map-marker"></i>
+                New Street 22545, Nexa Road, New York City, USA
+              </p>
+              <p>
+                <i class="fa fa-envelope"></i>
+                hello@uigrid.com
+              </p>
+              <p>
+                <i class="fa fa-phone"></i>
+                001-000-000-000
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-6">
+          <form>
+            <input class="form-control my-2" type="text" placeholder="Enter Name">
+            <input class="form-control my-2" type="email" placeholder="Enter Email">
+            <textarea class="form-control my-2" placeholder="Enter Message"></textarea>
+            <span id="count">100 Character Remaining</span>
+            <button class="btn btn-danger d-block my-2">Send Message</button>
+          </form>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+
+
+
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
